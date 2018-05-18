@@ -1,0 +1,559 @@
+.f_texto{
+	color: #162447;
+	font-size: 12px;
+	text-align: justify;
+}
+.f_texto, a.f_texto:LINK, a.f_texto:VISITED{
+	text-decoration: none;
+	color: #000000;
+}
+a.f_texto:HOVER{
+	text-decoration: underline;
+	color: #4C6C67;
+}
+.f_w{
+	color: #FFFFFF;
+}
+a.f_w, a.f_w:LINK, a.f_w:VISITED{
+	text-decoration: none;
+	color:#FFFFFF;
+}
+a.f_w, a.f_w:HOVER{
+	text-decoration: underline;
+	color: #F7F7F7;
+}
+/* apagar o de cima trabalhospremiados  */
+
+/* inicio ESTRUTURA ---------------------------------------------------------------------- */
+html{
+	/*background: url(../images/bg_inic_2014.jpg) no-repeat center center fixed; */
+	background-color:#162447;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#bg_topo{
+	width: 100%;
+	height: 267px;
+	background: url(../images/topo_inic2015.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+#bg_estrutura{
+	margin: 0 auto;
+	background: url(../images/bg_conteudo_repetir_2015.jpg) repeat-y center;
+}
+#estrutura{
+	width: 900px;
+	margin: 0px auto;
+	text-align: left;
+	margin-top:-1px;
+}
+#esquerda{
+	margin: 0px 0px 0px -30px;
+	width: 237px;
+	height: 37px;
+	float: left;
+}
+/* fim ESTRUTURA ---------------------------------------------------------------------- */
+/* inicio AREA DE TRABALHO ---------------------------------------------------------------------- */
+/* fim AREA DE TRABALHO ---------------------------------------------------------------------- */
+/* inicio MENU ---------------------------------------------------------------------- */
+#menu{
+	margin: -15px 200px 0px -200px;
+	width: 185px;
+	min-height: 800px;/* Alterar diminuir/aumentar o item #conteudo quando diminuir/aumentar o menu */
+	float: left;
+}
+.topo_menu {
+	margin-top: 15px;
+	margin-left: -42px;
+	margin-bottom: 10px;
+	width: 247px;
+	height: 46px;
+	background: url(../images/menu_inic2015.png) no-repeat;
+}
+.topo_menu p {
+	font-family: Arial Narrow, Verdana;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #1B5173;
+	font-weight: bold;
+	padding: 5px 0 0 50px;
+}
+#menu_lateral{
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+#menu_lateral li a{
+	height: 20px;
+	text-decoration: none;
+	font-size:10px;
+}
+#menu_lateral li a{
+	display: block;
+	padding: 4px 0 0 10px;
+	color: #162447;
+	font-size: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#menu_lateral li a.selectedclass{
+	background-color:#BDCCF2;
+}
+#menu_lateral li a:hover{
+	color: #113F7D;
+	padding: 4px 0 0 5px;
+}
+/* fim MENU ---------------------------------------------------------------------- */
+/* inicio LOGIN ---------------------------------------------------------------------- */
+#login_user{
+	width:226px;
+	height:195px;
+	background: url(../images/box_acesso_inic2015.png) no-repeat;
+	padding-left: 20px;
+	margin-top: 0px;
+	margin-left:-42px;
+	padding-top:10px;
+	color: #ffffff;
+}
+#nome{
+	float: left;
+	font-weight: bold;
+}
+#logout{
+	text-align: right;
+	font-size: 12px;
+	color: #036;
+	vertical-align: text-bottom;
+	padding-right: 5px;
+}
+div#organizacao_evento{
+	margin-left: 20px;
+	clear: both;
+	color: #400000;
+	font-size: 11px;
+}
+div#organizacao_evento p {
+	padding: 30px 20px 0 10px;
+	text-align: left;
+	color: #113F7D;
+}
+.f_titulo_azul14{
+	font-family: Arial Narrow, Verdana;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #162447;
+	font-weight: bold;
+}
+.f_acesso {
+	color: #fff;
+	font-size: 11px;
+	font-weight :bold;
+	text-align: left;
+}
+.f_acesso_link {
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: left;
+	text-decoration: underline;
+}
+.f_acesso_link:hover {
+	text-decoration: none;
+}
+.f_titulo_vermelho14{
+	font-family: Arial Narrow, Verdana;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #ffffff;
+	font-weight: bold;
+}
+.f_texto_acesso{
+	font-family: Arial Narrow, Verdana;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #1B5173;
+	font-weight: bold;
+	padding-left: 100px;
+	text-decoration: none;
+}
+/* fim LOGIN ---------------------------------------------------------------------- */
+/* inicio CONTEUDO ---------------------------------------------------------------------- */
+#conteudo{
+	position: inherit;
+	margin-top: -774px;/* alterar quando diminuir/aumentar item #menu. Se aumentar 20 no menu>>height, diminuir 20 aqui */
+	margin-right: 30px;
+	width: 620px;
+	float: right;
+}
+
+#conteudo table {
+	font-size:12px;
+	color: #113F7D;
+}
+
+#box_direita{
+	width: 160px;
+	height: 110px;
+	float: right;
+	text-align: center;
+}
+#box_esquerda{
+	width: 160px;
+	height: 140px;
+	float: left;
+	text-align: center;
+}
+#box_esquerda2{
+	width: 160px;
+	height: 120px;
+	float: left;
+	text-align: center;
+}
+.titulo{
+	width: 90%;
+	position: relative;
+	border-bottom: solid 1px #162447;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+.f_titulo_azul{
+	font-family: Arial Narrow, Verdana;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #162447;
+	font-weight: bold;
+}
+.f_texto_destaque{
+	color: #113F7D;
+	font-size: 12px;
+}
+.f_titulo_azul12{
+	font-family: Arial Narrow, Verdana;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #162447;
+	font-weight: bold;
+}
+.f_link_interessante{
+	color:#113F7D;
+	font-size:12px;
+}
+.f_link_interessante:HOVER{
+	color:#300;
+	font-size:12px;
+}
+.link{
+	color: #113F7D;
+	font-size: 11px;
+	font-weight :bold;
+	text-decoration: underline;
+}
+.link:HOVER{
+	color:#162447;
+	font-size:11px;
+	text-decoration: underline;
+}
+.no_link_menu{
+	color: #999;
+	font-size: 11px;
+	font-weight :bold;
+}
+.numero{
+	font-size: 11px;
+	color: #CC0000;
+}
+.f_subtitulo_modelo{
+	color: #162447;
+	font-size: 16px;
+	text-align: justify;
+}
+.f_passos_fora{
+	text-align: center;
+	background-color: #E8E8E8;
+	border: 2px #FFFFFF solid;
+}
+.f_passos_atual{
+	text-align: center;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	width: 25%;
+}
+#bar{
+	padding: 5px;
+	background-color: #DDE3F4;
+	border: #162447 solid 1px;
+	color: #113F7D;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+.td_aviso{
+	border: #ACBFDD solid 1px;
+}
+.f_aviso{
+	background-color: #F00;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 2px 2px 2px 4px;
+	letter-spacing: 2px;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#clear, .clear{
+	clear: both;
+}
+.mao {
+	cursor: pointer;
+}
+/* fim CONTEUDO ---------------------------------------------------------------------- */
+/* inicio TABELAS ---------------------------------------------------------------------- */
+.tabela_01{
+	width: 100%;
+	border: 0px;
+	margin: 0 auto;
+}
+
+.tabela_01 div {
+	font-size: 12px;	
+}
+
+.tabela_02{
+	width: 95%;
+	border: 0px #71A7E3 solid;
+	margin: 0 auto;
+	background-color: #D6E4F8;
+	color: #4A2500;
+	font-size: 12px;
+}
+.fundotd{
+	background-color: #FFFFFF;
+	padding: 5px;
+}
+.fundotd2{
+	background-color: #5B81BD;
+	color: #FFF;
+	padding: 12px 12px 12px 12px;
+}
+.fundotd1_trabalhos{
+	background-color: #D6DFEF;
+	height: 20px;
+	padding: 5px;
+}
+.fundotd2_trabalhos{
+	background-color: #C0CFE7;
+	height: 20px;
+	padding: 5px;
+}
+.formulario{
+	border: #162447 1px solid;
+	padding: 2px;
+}
+.formulario2{
+	border: #162447 1px solid;
+	padding:2px;
+	color:#000000;
+}
+.formulario_input{
+	width: 100%;
+}
+.formulario_input2{
+	width: 45%;
+}
+.formulario_input3{/*ava*/
+	width: 10%;
+	text-align: center;
+}
+.formulario_input4{/*grade*/
+	width: 40px;
+	text-align: right;
+}
+.formulario_input5{/*value*/
+	width: 70px;
+	text-align: right;
+}
+.formulario_input6{/*statuspay&date*/
+	width: 70%;
+}
+.formulario_input7{/*cents*/
+	width: 20px;
+}
+.formulario_input8{/*date*/
+	width: 60px;
+}
+.formulariobotao{
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	color: #162447;
+	padding: 8px 14px;
+	background-color: #D6E4F8;
+	border: 2px solid #CCC;
+}
+.formulariobotao:hover{
+	background-color: #2F68B5;/*B3C8EC*/
+	color: #fff;
+}
+.td_com_input{
+	padding-right: 11px;
+}
+/* fim TABELAS ---------------------------------------------------------------------- */
+/* inicio RODAPE ---------------------------------------------------------------------- */
+#rodape{
+	width: 880px;
+	height: 270px;
+	margin: 0px auto;
+}
+#bg_rodape{
+	margin: 0 auto;
+	width: 100%;
+}
+#area_links_rodape{
+	width: 100%;
+	clear: both;
+	height: 29px;
+	background: url(../images/bg_fim_conteudo_2015.jpg) no-repeat center;
+	margin-top:-1px;
+}
+#links{
+	width: 650px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #999999;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 29px;
+}
+#rodape_conteudo{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+}
+#rodape_esquerda{
+	width: 60%;
+	float: left;
+	padding-bottom: 20px;
+}
+#rodape_direita{
+	width: 40%;
+	float: right;
+}
+.organizadores_links{
+	width: 779px;
+	height: 230px;
+	margin: 0px auto;
+	color: #05357c;
+}
+#patrocinio{
+	width: 100%;
+	height: 60px;
+	text-align: left;
+}
+#apoio{
+	width: 100%;
+	height: 90px;
+	text-align: left;
+}
+#realizacao{
+	width: 100%;
+	height: 90px;
+	text-align: left;
+}
+#logo-rodape{
+	margin-top: 10px;
+	width: 100%;
+	height: 284px;
+	background: url(../images/arte_inic_2015_rodape.jpg) right no-repeat;
+}
+p.rod_titulo{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	text-shadow: 0.1em 0.1em 0.2em #333;
+	display: block;
+	color: #6997CB;
+}
+.links_rodape{/*verificar se é utilizado*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFF;
+	text-decoration: none;
+}
+.links_rodape:HOVER{/*verificar se é utilizado*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+	text-decoration: none;
+	border: 1px solid red;
+}
+.link_fve{
+	width: 132px;
+	height: 50px;
+	background: url(../images/logo_fve_rod.png) center no-repeat;
+	float: left;
+	margin-right: 40px;
+}
+.link_univap{
+	width: 109px;
+	height: 50px;
+	background: url(../images/logo_univap_rod.png) center no-repeat;
+	float: left;
+	margin-right: 40px;
+}
+.link_ipd{
+	width: 101px;
+	height: 50px;
+	background: url(../images/logo_ipd_rod.png) center no-repeat;
+	float: left;
+}
+.link_virtual{
+	width: 83px;
+	height: 52px;
+	background: url(../images/logo_uv_rod.png) center no-repeat;
+	float: left;
+	margin-right: 40px;
+}
+.link_cnpq{
+	width: 89px;
+	height: 52px;
+	background: url(../images/logo_cnpq_rod.png) center no-repeat;
+	float: left;
+	margin-right: 40px;
+}
+.link_fapesp{
+	width: 95px;
+	height: 52px;
+	background: url(../images/logo_fapesp_rod.png) center no-repeat;
+	float: left;
+	margin-right: 40px;
+}
+.link_capes{
+	width: 57px;
+	height: 53px;
+	background: url(../images/logo_capes_rod.png) center no-repeat;
+	float: left;
+}
+.link_patrocinio_1{
+	width: 161px;
+	height: 36px;
+	/*background: url(../images/logo_caixa_rod.png);*/
+	float: left;
+}
+.rodape_link{
+	font-size: 9px;
+	color: #FFF;
+	text-align: center;
+}
+a.rodape_link, a.rodape_link:LINK, a.rodape_link:VISITED{
+	text-decoration: none;
+	color: #FFF;
+}
+a.rodape_link, a.rodape_link:HOVER{
+	text-decoration: underline;
+}
+/* fim RODAPE ---------------------------------------------------------------------- */

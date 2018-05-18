@@ -1,0 +1,403 @@
+/* style.css */
+
+body {
+
+    background-color: #d6fdb3;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:13px;
+    line-height:24px;
+    color:#458B00;
+}
+
+p#msg{
+    width: 300px;
+    margin: 0 auto;
+    padding: 5px 0;
+    text-align: center;
+    color: #r00;
+    font-weight: bold;
+}
+
+.container, .container-fluid {
+    background-color: #f9f9f9;
+}
+
+/*//[class*="col-"], header, footer, nav, aside, section, div[role="main"] {
+ background-color: #f5f5f5;
+ background-color: rgba(86,61,124,.15);
+ border: 1px solid #ddd;
+ border: 2px solid rgba(86,61,124,.2);
+ border-color: #84c828;
+}*/
+
+div[role="main"] {
+    background-color: #fff;
+}
+/*fim-do-corpo-----------------------------------------*/
+
+.topo_menu {
+    margin-top: 15px;
+    margin-left: -42px;
+    margin-bottom: 10px;
+    width: 247px;
+    height: 46px;
+    background: transparent url("../img/menu.png") no-repeat scroll 0% 0%;
+    background-color: transparent;
+    background-image: url("../img/menu.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+}
+
+/*Define Configura��es da Coluna da Esquerda*/
+#doc-esquerda{
+    width:208px;
+    margin-top:10px;	
+    float:left;
+    margin-bottom:10px;	
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 150px;
+}
+
+#menu-institucional-ci{
+    width:188px;
+    padding-top:12px;
+    padding-bottom:17px;		
+}
+
+/*Define a classe que coloca a imagem com t�tulo Menu Principal*/
+div#menu-institucional-ci.tit_menu_institucional h4{
+    display:block;
+    height:10px;
+    overflow:hidden;	
+    margin: 0 auto 0px 0px;	
+    text-indent:-999px;
+}
+#menu-institucional-ci ul{
+    width:166px;
+    margin-left: 28px;
+}
+#menu-institucional-ci ul li{
+    width:155px;
+    height:26px;
+    //overflow:hidden;
+    margin-bottom: 3px;
+    background:transparent url("../img/background_item_menu_verde.png") left top no-repeat;	
+}
+#menu-institucional-ci ul li a{
+    text-decoration:none;
+}
+#menu-institucional-ci ul li a span{	
+    margin-left:5px;
+    margin-right:5px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:12px;
+    line-height:24px;
+    color:#3b8d27;	
+}
+/*fim-do-menu------------------------------------------------------------*/
+
+/**estilo-da-parte-login-logout------------------------------------------*/
+#login_user{
+    //width:226px;
+    height:195px;
+    background: transparent url("../img/box_acesso.png") no-repeat scroll 0% 0%;
+    background-color: transparent;
+    background-image: url("../img/box_acesso.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+    padding-left: 20px;
+    margin-top: 0px;
+    margin-left:-44px;
+    padding-top:10px;
+    color: #fff;
+}
+/*fim-do-estilo-login_user------------------*/
+
+#logout{
+    text-align: right;
+    font-size: 12px;
+    color: #036;
+    vertical-align: text-bottom;
+    padding-right: 5px;
+}
+/*fim-estilo-logout------------------*/
+
+/*estilo-do-link-de-acesso------------------*/
+.f_acesso {
+    color: #fff;
+    font-size: 11px;
+    font-weight :bold;
+    text-align: left;
+}
+.f_acesso_link {
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-color: -moz-use-text-color;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+
+.f_acesso_link:hover {
+    text-decoration: none;
+}
+
+.f_texto_acesso{
+    font-family: Arial Narrow, Verdana;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    padding-left: 5px;
+    text-decoration: none;
+}
+
+.titulo{
+    width: 90%;
+    position: relative;
+    border-bottom: solid 1px #162447;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.titulo_verde{
+    font-family: Arial Narrow, Verdana;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #217718;
+    font-weight: bold;
+}
+
+.link{
+    color: #217718;
+    font-size: 11px;
+    font-weight :bold;
+    text-decoration: underline;
+}
+.link:HOVER{
+    color:#162447;
+    font-size:11px;
+    text-decoration: underline;
+}
+.subtitulo{
+    font-size: 13px; 
+    color: black; 
+    background-color: #149bdf; 
+    font-weight: bold; 
+    text-transform: uppercase;
+}
+
+/*fim-do-link-de-acesso---------------------------------------*/
+
+/*estilo-da-barra-de-identifica��o------------------*/
+#bar{
+    padding: 5px;
+    background-color: #A9F3A9;
+    //border: #46B736 solid 1px;
+    color: #196F08;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+#nome{
+    float: left;
+    font-weight: bold;
+}
+/*fim-barra-de-identifica��o------------------*/
+
+hr {
+    width: 30%;
+    text-align: left; /* Para o IE */
+    margin: 0 auto 0 0; /* Para navegadores standard */
+}
+
+.thumbnails{
+    height: 300px;
+    width: 200px;
+}
+
+/*estilo-bot�o---------------------------------*/
+.buton{
+    font:bold 15px Century Gothic, sans-serif;
+    font-style:italic;
+    color:#f9f9f9;
+    background:#aec41d;
+    border:4px solid #ccd6b6;
+    text-shadow:0px 3px 0px #084d0c;
+    box-shadow:0px 0px 7px #252b01;
+    -moz-box-shadow:0px 0px 7px #252b01;
+    -webkit-box-shadow:0px 0px 7px #252b01;
+    border-radius:62px 0px 56px 0px;
+    -moz-border-radius:64px 12px 56px 0px;
+    -webkit-border-radius:64px 12px 56px 0px;
+    width:60px;
+    padding:10px 26px;
+    cursor:pointer;
+    margin:0 auto;
+}
+
+.buton:active{
+    cursor:pointer;
+    position:relative;
+    top:2px;
+}
+
+/*fim-estilo-do-bot�o-------------------------------------*/
+
+.negrito {
+    font-weight: bold;
+}
+
+/*estilo-da-tabela-do-adm-------------------------*/
+
+table#t01 th {
+    color: white;
+    background-color: #3b8d27;
+    border-radius: 6px;
+}
+
+/*fim-estilo-da-tabela-do-adm----------------------*/
+
+/*estilo-do-conteudo-do-participante--------------------*/
+#conteudo{
+    position: inherit;
+    //margin-top: -54px;/* alterar quando diminuir/aumentar item #menu. Se aumentar 20 no menu>>height, diminuir 20 aqui */
+    margin-right: 30px;
+    width: 620px;
+    float: right;
+}
+#conteudo table {
+    font-size:12px;
+    //color: #113F7D;
+}
+.tabela_01{
+    width: 100%;
+    border: 0px;
+    margin: 0 auto;
+}
+.tabela_01 div {
+    font-size: 12px;	
+}
+
+.tabela_02{
+    width: 95%;
+    border: 0px #71A7E3 solid;
+    margin: 0 auto;
+    background-color: #D1FBAF;
+    color: #0883A4;
+    font-size: 12px;
+}
+.fundotd{
+    background-color: #F9F9F9;
+    padding: 5px;
+}
+.fundotd2{
+    background-color: #5B81BD;
+    //color: #FFF;
+    padding: 12px 12px 12px 12px;
+}
+.fundotd2_trabalhos{
+    background-color: #C0CFE7;
+    height: 20px;
+    padding: 5px;
+}
+.formulario{
+    border: #162447 1px solid;
+    padding: 2px;
+}
+.formulario2{
+    border: #162447 1px solid;
+    padding:2px;
+    color:#000000;
+}
+.formulario_input{
+    width: 100%;
+}
+.formulario_input2{
+    width: 45%;
+}
+.formulario_input3{/*ava*/
+    width: 10%;
+    text-align: center;
+}
+.formulario_input4{/*grade*/
+    width: 40px;
+    text-align: right;
+}
+.formulario_input5{/*value*/
+    width: 70px;
+    text-align: right;
+}
+.formulario_input6{/*statuspay&date*/
+    width: 70%;
+}
+.formulario_input7{/*cents*/
+    width: 20px;
+}
+.formulario_input8{/*date*/
+    width: 60px;
+}
+.formulariobotao{
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: bold;
+    color: #162447;
+    padding: 8px 14px;
+    background-color: #D6E4F8;
+    border: 2px solid #CCC;
+}
+.formulariobotao:hover{
+    background-color: #2F68B5;/*B3C8EC*/
+    color: #fff;
+}
+.td_com_input{
+    padding-right: 11px;
+}
+/*fim-tabela/conteudo-do-participante--------------------------*/
+
+/*estilo-fieldset---------------------------------*/
+fieldset.scheduler-border {
+    border: 1px groove #ddd !important;
+    border-radius: 10px;
+    border-color: #84c828;
+    text-align: center;
+    box-shadow:  0px 0px 0px 0px #000;
+}
+
+legend.scheduler-border {
+    width:inherit;  
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    border-bottom:none;
+}
+
+/*fim-do-estilo-fieldset---------------------------------*/
+
+/*estilo-do-rodap�---------------------------------------*/
+#rodape{
+    width:97%;
+    margin: 15px;
+    background-color:#666;
+    border-radius: 10px;
+    text-align:center;
+}
+#credito1{
+    text-align: center;
+    font-weight: bold;
+}
+/*fim-do-estilo-rodap�---------------------------------*/
